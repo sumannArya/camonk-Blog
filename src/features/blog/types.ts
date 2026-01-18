@@ -1,0 +1,14 @@
+export interface BlogPost {
+    id: string;
+    title: string;
+    category: string[];
+    description: string;
+    date: string;
+    coverImage: string;
+    content: string;
+    author?: {
+        name: string;
+        avatar: string;
+        role: string;
+    };
+}
